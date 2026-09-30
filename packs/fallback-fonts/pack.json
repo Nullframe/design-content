@@ -1,0 +1,17 @@
+{
+  "$comment": "One entry per published archive of this pack. Voyager Design pins `sha256` (the pack's SHA-256 over the files in its MANIFEST.json) and the release URL in desktop-moda's packaging/runtime/content.json. .github/workflows/verify-packs.yml downloads every archive anonymously and checks it against this file and NOTICES.md.",
+  "name": "fallback-fonts",
+  "license": "OFL-1.1",
+  "archives": [
+    {
+      "id": "499aa4cd65c0e90c",
+      "sha256": "499aa4cd65c0e90ce82c3b1ec5255fa7cb4e589fab9185583ec0cf073c5efd63",
+      "tag": "fonts-fallback-2026-09-30",
+      "archive": "voyager-design-fallback-fonts-499aa4cd65c0e90c.tar.gz",
+      "archiveSha256": "408d975ce934684b8c845b8a7f348cc4fc35c693d9e7fd994d8978f735ef8753",
+      "size": 25134314,
+      "url": "https://github.com/Nullframe/design-content/releases/download/fonts-fallback-2026-09-30/voyager-design-fallback-fonts-499aa4cd65c0e90c.tar.gz",
+      "builtWith": "Voyager Design runtime 0.1.0-pre.4 (Nullframe/desktop-moda scripts/build-runtime.mjs)"
+    }
+  ]
+}
