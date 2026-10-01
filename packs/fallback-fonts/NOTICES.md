@@ -1,12 +1,13 @@
 # Notices: fallback fonts pack
 
-The fallback fonts pack (`fallback-fonts`) holds the CJK, colour emoji and per-script Noto faces that Voyager Design's headless runtime doesn't ship. It installs them on demand with `voyager-design fonts install --fallback` (or `voyager-design content install fallback-fonts`).
+The fallback fonts pack (`fallback-fonts`) holds the CJK, colour emoji and per-script Noto faces, and STIX Two Math, that Voyager Design's headless runtime doesn't ship. It installs them on demand with `voyager-design fonts install --fallback` (or `voyager-design content install fallback-fonts`).
 
 Every font in it is licensed under the **SIL Open Font License 1.1** (OFL-1.1, https://openfontlicense.org). The OFL allows redistribution, including bundled with software, as long as each font keeps its copyright notice and licence. The fonts are unmodified upstream files, the same bytes the Voyager Design app bundles. Each archive carries the full licence texts:
 
 - `fonts/noto/OFL.txt`: the OFL, with the copyright line of every per-script Noto family below.
 - `wasm-degraded-fonts/OFL-NotoSansCJKsc.txt`: the OFL, with Adobe's copyright notice and its Reserved Font Name "Source". The font is unmodified, so the name is kept.
 - `wasm-degraded-fonts/OFL-NotoColorEmoji.txt`: the OFL, with Google's copyright notice.
+- `fonts/stix/OFL.txt`: the OFL, with the STIX Fonts Project Authors' copyright notice and their Reserved Font Name "TM Math" (STIX Fonts™ is a trademark of the IEEE). The font is unmodified, so the name is kept. In archives from `fonts-fallback-2026-10-01` on.
 
 `MANIFEST.json` in each archive is Voyager Design's own file list: every file's SHA-256 and size, the pack's SHA-256 over them, and the families and scripts it covers. It is metadata, not font data.
 
@@ -48,3 +49,4 @@ The copyright is each font's own `name` table entry (ID 0). The licence file is 
 | Noto Serif Tibetan | `fonts/noto/NotoSerifTibetan[wght]-Regular.ttf` | [notofonts/tibetan](https://github.com/notofonts/tibetan) | Copyright 2022 The Noto Project Authors | OFL-1.1 | `fonts/noto/OFL.txt` |
 | Noto Color Emoji | `wasm-degraded-fonts/NotoColorEmoji.ttf` | [googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji) | Copyright 2022 Google Inc | OFL-1.1 | `wasm-degraded-fonts/OFL-NotoColorEmoji.txt` |
 | Noto Sans CJK SC | `wasm-degraded-fonts/NotoSansCJKsc-Regular.otf` | [notofonts/noto-cjk](https://github.com/notofonts/noto-cjk) | © 2014-2021 Adobe | OFL-1.1 | `wasm-degraded-fonts/OFL-NotoSansCJKsc.txt` |
+| STIX Two Math | `fonts/stix/STIXTwoMath-Regular.ttf` | [stipub/stixfonts](https://github.com/stipub/stixfonts) v2.13 b171 (`fonts/static_ttf/STIXTwoMath-Regular.ttf` at tag `v2.13b171`) | Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts) | OFL-1.1 | `fonts/stix/OFL.txt` |
