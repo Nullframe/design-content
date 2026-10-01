@@ -12,6 +12,16 @@
       "size": 25134314,
       "url": "https://github.com/Nullframe/design-content/releases/download/fonts-fallback-2026-09-30/voyager-design-fallback-fonts-499aa4cd65c0e90c.tar.gz",
       "builtWith": "Voyager Design runtime 0.1.0-pre.4 (Nullframe/desktop-moda scripts/build-runtime.mjs)"
+    },
+    {
+      "id": "590703a4e403b231",
+      "sha256": "590703a4e403b231dada07283116d49baa6cfa2fce2fbbaf106cb7db1d7562d8",
+      "tag": "fonts-fallback-2026-10-01",
+      "archive": "voyager-design-fallback-fonts-590703a4e403b231.tar.gz",
+      "archiveSha256": "5cf89f61be5c835ae5f24d09b8443d114392d247bb14a66758d7fa28f0c1a15e",
+      "size": 25934411,
+      "url": "https://github.com/Nullframe/design-content/releases/download/fonts-fallback-2026-10-01/voyager-design-fallback-fonts-590703a4e403b231.tar.gz",
+      "builtWith": "Voyager Design runtime 0.1.4 (Nullframe/desktop-moda scripts/build-runtime.mjs, branch stix-two-math-fallback); adds STIX Two Math 2.13 b171"
     }
   ]
 }
